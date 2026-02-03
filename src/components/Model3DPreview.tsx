@@ -259,7 +259,7 @@ export function Model3DPreview({ width, height, environmentUrl }: Model3DPreview
         // No URL: load from bundled defects.json
         (async () => {
             try {
-                const res = await fetch("/defects.json");
+                const res = await fetch(`${import.meta.env.BASE_URL}defects.json`);
                 if (!res.ok) throw new Error("Failed to fetch defects.json");
                 const data = await res.json();
                 const entries: DefectEntry[] = data.entries ?? [];

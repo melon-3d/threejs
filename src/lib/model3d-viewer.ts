@@ -22,9 +22,9 @@ export const SEVERITY_COLORS: Record<Severity, string> = {
 };
 
 export const DECAL_TEXTURES: Record<Exclude<DecalTextureId, "none">, string> = {
-    heavy: "/decals/heavy.webp",
-    moderate: "/decals/moderate.webp",
-    light: "/decals/light.webp",
+    heavy: `${import.meta.env.BASE_URL}decals/heavy.webp`,
+    moderate: `${import.meta.env.BASE_URL}decals/moderate.webp`,
+    light: `${import.meta.env.BASE_URL}decals/light.webp`,
 };
 
 export const DECAL_OPTIONS: Array<{ value: DecalTextureId; label: string }> = [
