@@ -1,0 +1,109 @@
+.settings-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99;
+}
+
+.settings-dropdown {
+    position: absolute;
+    top: calc(100% + 8px);
+    right: 0;
+    width: 220px;
+    background: var(--bg-secondary);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+    z-index: 100;
+    padding: 0.75rem;
+}
+
+.settings-section {
+    margin-bottom: 1rem;
+}
+
+.settings-section:last-child {
+    margin-bottom: 0;
+}
+
+.settings-section h4 {
+    margin: 0 0 0.5rem 0;
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+.settings-action-btn {
+    width: 100%;
+    padding: 0.5rem 1rem;
+    border: 1px solid var(--accent-color);
+    border-radius: 4px;
+    background: var(--accent-color);
+    color: white;
+    font-size: 0.875rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition:
+        background-color 0.15s,
+        opacity 0.15s;
+}
+
+.settings-action-btn:hover:not(:disabled) {
+    background: #d63050;
+}
+
+.settings-action-btn:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.settings-progress {
+    margin-top: 0.5rem;
+    font-size: 0.75rem;
+    color: var(--text-secondary);
+    font-style: italic;
+}
+
+.settings-info {
+    margin-top: 0.5rem;
+    font-size: 0.75rem;
+    color: var(--severity-low);
+}
+
+.settings-error {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    background: rgba(229, 57, 53, 0.2);
+    border: 1px solid var(--severity-high);
+    border-radius: 4px;
+    color: var(--severity-high);
+    font-size: 0.75rem;
+}
+
+.settings-error button {
+    background: none;
+    border: none;
+    color: var(--severity-high);
+    font-size: 1rem;
+    cursor: pointer;
+    padding: 0 4px;
+}
+
+.settings-checkbox {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.875rem;
+    color: var(--text-primary);
+    cursor: pointer;
+}
+
+.settings-checkbox input[type="checkbox"] {
+    accent-color: var(--accent-color);
+    cursor: pointer;
+}

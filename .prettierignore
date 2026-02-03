@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+dist/
+build/
+
+# Generated files
+*.min.js
+*.min.css
+
+# Lock files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Logs
+*.log
+
+# Environment files
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+
+# Other
+coverage/
+*.tsbuildinfo

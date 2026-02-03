@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 256 256" fill="none">
+  <defs>
+    <radialGradient id="bg" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(120 90) rotate(60) scale(210 210)">
+      <stop offset="0" stop-color="#123A2D"/>
+      <stop offset="1" stop-color="#07130F"/>
+    </radialGradient>
+    <linearGradient id="ground" x1="56" y1="150" x2="208" y2="248" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2F7D4F"/>
+      <stop offset="1" stop-color="#1F5C3A"/>
+    </linearGradient>
+    <linearGradient id="soil" x1="40" y1="182" x2="220" y2="252" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5B3B2A"/>
+      <stop offset="1" stop-color="#3B241A"/>
+    </linearGradient>
+    <linearGradient id="cubeTop" x1="98" y1="72" x2="156" y2="116" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#EAF2FF"/>
+      <stop offset="1" stop-color="#CFE0FF"/>
+    </linearGradient>
+    <linearGradient id="cubeLeft" x1="76" y1="110" x2="126" y2="192" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#BFD3FF"/>
+      <stop offset="1" stop-color="#93B0F3"/>
+    </linearGradient>
+    <linearGradient id="cubeRight" x1="126" y1="110" x2="190" y2="192" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#A9C2FF"/>
+      <stop offset="1" stop-color="#7E9BE8"/>
+    </linearGradient>
+    <linearGradient id="labelFill" x1="86" y1="26" x2="204" y2="110" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FF8A7A"/>
+      <stop offset="1" stop-color="#F04E3E"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#000000" flood-opacity="0.45"/>
+    </filter>
+    <filter id="labelShadow" x="-35%" y="-35%" width="170%" height="170%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#000000" flood-opacity="0.40"/>
+    </filter>
+  </defs>
+
+  <rect x="0" y="0" width="256" height="256" fill="url(#bg)"/>
+  <path d="M0 154C58 132 98 140 128 154C170 174 196 170 256 150V256H0V154Z" fill="url(#ground)" opacity="0.95"/>
+  <path d="M0 200C70 176 112 196 148 214C186 234 214 230 256 218V256H0V200Z" fill="url(#soil)" opacity="0.9"/>
+
+  <g filter="url(#shadow)">
+    <path d="M128 68L182 98L128 128L74 98L128 68Z" fill="url(#cubeTop)"/>
+    <path d="M74 98L128 128V204L74 174V98Z" fill="url(#cubeLeft)"/>
+    <path d="M182 98L128 128V204L182 174V98Z" fill="url(#cubeRight)"/>
+    <path d="M74 98L128 128L182 98" stroke="#07130F" stroke-opacity="0.28" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M128 128V204" stroke="#07130F" stroke-opacity="0.22" stroke-width="8" stroke-linecap="round"/>
+  </g>
+
+  <g filter="url(#labelShadow)">
+    <path d="M46 44C46 34.0589 54.0589 26 64 26H198C207.941 26 216 34.0589 216 44V78C216 87.9411 207.941 96 198 96H132L116 118L100 96H64C54.0589 96 46 87.9411 46 78V44Z" fill="url(#labelFill)"/>
+    <path d="M46 44C46 34.0589 54.0589 26 64 26H198C207.941 26 216 34.0589 216 44V78C216 87.9411 207.941 96 198 96H132L116 118L100 96H64C54.0589 96 46 87.9411 46 78V44Z" stroke="#07130F" stroke-opacity="0.20" stroke-width="8" stroke-linejoin="round"/>
+    <path d="M68 52H190" stroke="#FFF7ED" stroke-width="10" stroke-linecap="round" opacity="0.95"/>
+    <path d="M68 70H152" stroke="#FFF7ED" stroke-width="10" stroke-linecap="round" opacity="0.90"/>
+  </g>
+</svg>

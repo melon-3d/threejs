@@ -1,0 +1,541 @@
+{
+    "entries": [
+        {
+            "category": "Low level master",
+            "id": "LL01",
+            "defect": "Cracks",
+            "majorDefectCategory": "Surface Damage",
+            "description": "Visible splits or fractures in roofing material",
+            "visualPatterns": "Linear breaks, edge splits"
+        },
+        {
+            "category": "Low level master",
+            "id": "LL02",
+            "defect": "Moss",
+            "majorDefectCategory": "Environmental Exposure",
+            "description": "Organic growth on shingles",
+            "visualPatterns": "Green patches"
+        },
+        {
+            "category": "Low level master",
+            "id": "LL03",
+            "defect": "Leaves and debris",
+            "majorDefectCategory": "Environmental Exposure",
+            "description": "Accumulated organic debris",
+            "visualPatterns": "Clustered leaves and debris"
+        },
+        {
+            "category": "Low level master",
+            "id": "LL04",
+            "defect": "High humidity/Dampness",
+            "majorDefectCategory": "Moisture Intrusion",
+            "description": "Moisture accumulation",
+            "visualPatterns": "Dark patches"
+        },
+        {
+            "category": "Low level master",
+            "id": "LL05",
+            "defect": "Watermarks & moisture intrusions",
+            "majorDefectCategory": "Moisture Intrusion",
+            "description": "Stains from water penetration",
+            "visualPatterns": "Streaks, stains"
+        },
+        {
+            "category": "Low level master",
+            "id": "LL06",
+            "defect": "Discolorations",
+            "majorDefectCategory": "Moisture Intrusion",
+            "description": "Color fading or staining",
+            "visualPatterns": "Uneven tones"
+        },
+        {
+            "category": "Low level master",
+            "id": "LL07",
+            "defect": "Hole",
+            "majorDefectCategory": "Structural Failure",
+            "description": "Open gaps in roofing material",
+            "visualPatterns": "Visible holes"
+        },
+        {
+            "category": "Low level master",
+            "id": "LL08",
+            "defect": "Fire damage",
+            "majorDefectCategory": "Fire/Hazard Risk",
+            "description": "Burn marks or structural damage",
+            "visualPatterns": "Charred areas"
+        },
+        {
+            "category": "Low level master",
+            "id": "LL09",
+            "defect": "Shingle discolorations",
+            "majorDefectCategory": "Environmental Exposure",
+            "description": "Color variation due to wear",
+            "visualPatterns": "Uneven tones"
+        },
+        {
+            "category": "Low level master",
+            "id": "LL10",
+            "defect": "Rust and corrosion",
+            "majorDefectCategory": "Material Deterioration",
+            "description": "Metal components oxidized",
+            "visualPatterns": "Reddish stains"
+        },
+        {
+            "category": "Low level master",
+            "id": "LL11",
+            "defect": "Pests and insects",
+            "majorDefectCategory": "Environmental Exposure",
+            "description": "Infestation damage from rodents or insects",
+            "visualPatterns": "Nests, chew marks, entry holes"
+        },
+        {
+            "category": "Low level master",
+            "id": "LL12",
+            "defect": "Bird nests",
+            "majorDefectCategory": "Environmental Exposure",
+            "description": "Nesting materials obstructing roof or ventilation",
+            "visualPatterns": "Twigs, clustered debris"
+        },
+        {
+            "category": "Low level master",
+            "id": "LL13",
+            "defect": "Damaged and rotten wood",
+            "majorDefectCategory": "Material Deterioration",
+            "description": "Wood components decayed due to moisture or age",
+            "visualPatterns": "Darkened, splintered, soft wood"
+        },
+        {
+            "category": "Low level master",
+            "id": "LL14",
+            "defect": "Missing bricks",
+            "majorDefectCategory": "Structural Failure",
+            "description": "Bricks dislodged or absent from chimney structure",
+            "visualPatterns": "Brick voids, uneven surface"
+        },
+        {
+            "category": "Low level master",
+            "id": "LL15",
+            "defect": "Deteriorated mortar joints",
+            "majorDefectCategory": "Material Deterioration",
+            "description": "Mortar between bricks cracked or missing",
+            "visualPatterns": "Crumbled joints, gaps"
+        },
+        {
+            "category": "Low level master",
+            "id": "LL16",
+            "defect": "Spalling bricks",
+            "majorDefectCategory": "Material Deterioration",
+            "description": "Brick surface flaking or breaking off",
+            "visualPatterns": "Surface pits, flaked edges"
+        },
+        {
+            "category": "Low level master",
+            "id": "LL17",
+            "defect": "Creosote buildup",
+            "majorDefectCategory": "Material Deterioration",
+            "description": "Accumulated soot inside flue",
+            "visualPatterns": "Black deposits, thick residue"
+        },
+        {
+            "category": "Low level master",
+            "id": "LL18",
+            "defect": "Efflorescence",
+            "majorDefectCategory": "Moisture Intrusion",
+            "description": "White salt deposits on brick surface",
+            "visualPatterns": "Powdery residue"
+        },
+        {
+            "category": "Low level master",
+            "id": "LL19",
+            "defect": "Gutter/Downspouts - Leaves",
+            "majorDefectCategory": "Environmental Exposure",
+            "description": "Organic debris blocking flow",
+            "visualPatterns": "Leaf clusters, overflow"
+        },
+        {
+            "category": "Low level master",
+            "id": "LL21",
+            "defect": "Clogged water",
+            "majorDefectCategory": "Moisture Intrusion",
+            "description": "Standing water due to blockage",
+            "visualPatterns": "Pooled water, debris"
+        },
+        {
+            "category": "Low level master",
+            "id": "LL22",
+            "defect": "Cracked glass",
+            "majorDefectCategory": "Material Deterioration",
+            "description": "Glass damaged or fogged from seal failure",
+            "visualPatterns": "Cracks, condensation"
+        },
+        {
+            "category": "Low level master",
+            "id": "LL23",
+            "defect": "Biological growth",
+            "majorDefectCategory": "Material Deterioration",
+            "description": "Environmental Exposure",
+            "visualPatterns": "Moss"
+        },
+        {
+            "category": "Low level master",
+            "id": "LL24",
+            "defect": "Missing Crawl Space Mesh",
+            "majorDefectCategory": "nan",
+            "description": "Installation Failure",
+            "visualPatterns": "Absence of iron mesh/net at crawl space openings"
+        },
+        {
+            "category": "Low level master",
+            "id": "LL25",
+            "defect": "Paint Peeling",
+            "majorDefectCategory": "nan",
+            "description": "Material Deterioration",
+            "visualPatterns": "Coating flaking off vinyl"
+        },
+        {
+            "category": "Low level master",
+            "id": "LL26",
+            "defect": "Exposed Wiring",
+            "majorDefectCategory": "nan",
+            "description": "Electrical",
+            "visualPatterns": "Unprotected or loose electrical wiring in garage"
+        },
+        {
+            "category": "Low level master",
+            "id": "LL27",
+            "defect": "Glass Condensation",
+            "majorDefectCategory": "nan",
+            "description": "Operational",
+            "visualPatterns": "Moisture forming between panes or on interior"
+        },
+        {
+            "category": "Low level master",
+            "id": "LL28",
+            "defect": "Rot Indicators",
+            "majorDefectCategory": "nan",
+            "description": "Material",
+            "visualPatterns": "Early signs of rot around frames and trim"
+        },
+        {
+            "category": "Low level master",
+            "id": "LL29",
+            "defect": "Sealant Deterioration",
+            "majorDefectCategory": "Material Deterioration",
+            "description": "Sealant cracked or missing around vent",
+            "visualPatterns": "Cracked joints, gaps"
+        },
+        {
+            "category": "Low level master",
+            "id": "LL30",
+            "defect": "Pest Damage",
+            "majorDefectCategory": "Pest Damage in Wood",
+            "description": "Visible boreholes or trails in vinyl backing",
+            "visualPatterns": "Small holes, frass trails"
+        },
+        {
+            "category": "siding (vinyl)",
+            "id": "S02",
+            "defect": "Warping & Buckling",
+            "majorDefectCategory": "Material Deterioration",
+            "description": "Distortion or bending of vinyl panels",
+            "visualPatterns": "Curved panel, uneven plane"
+        },
+        {
+            "category": "siding (vinyl)",
+            "id": "S06",
+            "defect": "Loose Panel",
+            "majorDefectCategory": "Installation Failure",
+            "description": "Vinyl panel visibly detached",
+            "visualPatterns": "Panel gap, lifted edge"
+        },
+        {
+            "category": "siding (vinyl)",
+            "id": "S07",
+            "defect": "Impact Damage",
+            "majorDefectCategory": "Structural",
+            "description": "Dents or holes from external force",
+            "visualPatterns": "Puncture, dented surface"
+        },
+        {
+            "category": "siding (vinyl)",
+            "id": "S09",
+            "defect": "Gapping at Joints",
+            "majorDefectCategory": "Installation Failure",
+            "description": "Excessive spacing between vinyl panels",
+            "visualPatterns": "Visible joint gap, seam exposure"
+        },
+        {
+            "category": "siding (vinyl)",
+            "id": "S11",
+            "defect": "Trim Separation",
+            "majorDefectCategory": "Installation Failure",
+            "description": "Siding trim pulling away from corners or edges",
+            "visualPatterns": "Gap at trim joint, lifted edge"
+        },
+        {
+            "category": "siding (vinyl)",
+            "id": "S12",
+            "defect": "Ground Contact/Inadequeate Clearance",
+            "majorDefectCategory": "Material Deterioration",
+            "description": "Panels installed touching soil or concrete",
+            "visualPatterns": "Base panel contact, discoloration"
+        },
+        {
+            "category": "siding (vinyl)",
+            "id": "S18",
+            "defect": "Window Flashing Failure",
+            "majorDefectCategory": "Installation Failure",
+            "description": "Improper or missing flashing around windows",
+            "visualPatterns": "Exposed seam, water trail"
+        },
+        {
+            "category": "siding (vinyl)",
+            "id": "S19",
+            "defect": "Asbestos Siding Indicator",
+            "majorDefectCategory": "Hazardous Material",
+            "description": "Presence of older asbestos cement siding",
+            "visualPatterns": "Flat rigid panel, nail holes, brittle edge"
+        },
+        {
+            "category": "Roof List",
+            "id": "Roof01",
+            "defect": "Roof blisters",
+            "majorDefectCategory": "Surface Damage",
+            "description": "Raised bubbles on shingles due to trapped moisture or gas",
+            "visualPatterns": "Blistered surface texture, raised bumps"
+        },
+        {
+            "category": "Roof List",
+            "id": "Roof03",
+            "defect": "Curling & cupping",
+            "majorDefectCategory": "Material Deterioration",
+            "description": "Shingles curling upward or forming concave shapes",
+            "visualPatterns": "Curved edges, lifted corners"
+        },
+        {
+            "category": "Roof List",
+            "id": "Roof04",
+            "defect": "Granule loss",
+            "majorDefectCategory": "Material Deterioration",
+            "description": "Loss of protective granules from shingle surface",
+            "visualPatterns": "Bare patches, texture change"
+        },
+        {
+            "category": "Roof List",
+            "id": "Roof05",
+            "defect": "Flaking",
+            "majorDefectCategory": "Material Deterioration",
+            "description": "Surface peeling due to age or weather",
+            "visualPatterns": "Peeling texture"
+        },
+        {
+            "category": "Roof List",
+            "id": "Roof06",
+            "defect": "Hail bruise",
+            "majorDefectCategory": "Environmental Exposure",
+            "description": "Indentations caused by hail impact",
+            "visualPatterns": "Circular dents"
+        },
+        {
+            "category": "Roof List",
+            "id": "Roof10",
+            "defect": "Roof Humidity & Dampness",
+            "majorDefectCategory": "Moisture Intrusion",
+            "description": "Moisture accumulation",
+            "visualPatterns": "Dark patches"
+        },
+        {
+            "category": "Roof List",
+            "id": "Roof11",
+            "defect": "Roof Watermarks",
+            "majorDefectCategory": "Moisture Intrusion",
+            "description": "Stains from water penetration",
+            "visualPatterns": "Streaks, stains"
+        },
+        {
+            "category": "Roof List",
+            "id": "Roof15",
+            "defect": "Shingle discolorations",
+            "majorDefectCategory": "Environmental Exposure",
+            "description": "Color variation due to wear",
+            "visualPatterns": "Uneven tones"
+        },
+        {
+            "category": "Roof List",
+            "id": "Roof18",
+            "defect": "Delamination",
+            "majorDefectCategory": "Material Deterioration",
+            "description": "layers of roofing material separate due to bonding failure or environmental stress:",
+            "visualPatterns": "Layer speration, wrinkling, curling"
+        },
+        {
+            "category": "Roof List",
+            "id": "Roof19",
+            "defect": "Adhesion Failure",
+            "majorDefectCategory": "Material Deterioration",
+            "description": "glue, adhesive, or bonding layer between roofing materials",
+            "visualPatterns": "Cohesive Adhesion Failure"
+        },
+        {
+            "category": "Roof List",
+            "id": "Roof22",
+            "defect": "Trapped air bubble in new roof",
+            "majorDefectCategory": "Material Deterioration",
+            "description": "Trapped air pockets beneath membrane or shingle surface",
+            "visualPatterns": "Blister zones, raised bubbles"
+        },
+        {
+            "category": "Roof List",
+            "id": "Roof34",
+            "defect": "Damaged flashing",
+            "majorDefectCategory": "Material Deterioration",
+            "description": "Flashing material torn, bent, or corroded",
+            "visualPatterns": "Exposed seams, bent metal"
+        },
+        {
+            "category": "Roof List",
+            "id": "Roof35",
+            "defect": "Missing flashing",
+            "majorDefectCategory": "Structural Failure",
+            "description": "Flashing absent at critical joints",
+            "visualPatterns": "Gap at roof-chimney interface"
+        },
+        {
+            "category": "Roof List",
+            "id": "Roof39",
+            "defect": "Cracked chimney crown",
+            "majorDefectCategory": "Structural Failure",
+            "description": "Fractures in top cement layer of chimney",
+            "visualPatterns": "Surface cracks, edge splits"
+        },
+        {
+            "category": "Roof List",
+            "id": "Roof53",
+            "defect": "Leaks around",
+            "majorDefectCategory": "Moisture Intrusion",
+            "description": "Water escaping from joints or seams",
+            "visualPatterns": "Drips, wet fascia"
+        },
+        {
+            "category": "Roof List",
+            "id": "Roof59",
+            "defect": "Loose/Missing Fasteners",
+            "majorDefectCategory": "Material Deterioration",
+            "description": "Fasteners detached or absent",
+            "visualPatterns": "Visible gaps, lifted vent"
+        },
+        {
+            "category": "Roof List",
+            "id": "Roof62",
+            "defect": "Warped Vent Covers",
+            "majorDefectCategory": "Material Deterioration",
+            "description": "Vent covers distorted or bent",
+            "visualPatterns": "Curved or lifted edges"
+        },
+        {
+            "category": "Roof List",
+            "id": "Roof68",
+            "defect": "Ice/Snow Blockage",
+            "majorDefectCategory": "Environmental Exposure",
+            "description": "Frozen material obstructing vent",
+            "visualPatterns": "Packed snow, ice caps"
+        },
+        {
+            "category": "Roof List",
+            "id": "Roof70",
+            "defect": "Skylight flashing failure",
+            "majorDefectCategory": "Material Deterioration",
+            "description": "Flashing around skylight misaligned or cracked",
+            "visualPatterns": "Lifted edges, gaps"
+        },
+        {
+            "category": "garage",
+            "id": "G03",
+            "defect": "Broken Garage Door Panel",
+            "majorDefectCategory": "Material",
+            "description": "Cracked or dented garage door panel",
+            "visualPatterns": "Fractured panel, dented surface"
+        },
+        {
+            "category": "Door and Window",
+            "id": "DW02",
+            "defect": "Single Pane Window",
+            "majorDefectCategory": "",
+            "description": "Outdated single-pane glass with poor insulation",
+            "visualPatterns": "Flat glass, no spacer"
+        },
+        {
+            "category": "Driveway",
+            "id": "DR02",
+            "defect": "Potholes",
+            "majorDefectCategory": "",
+            "description": "Depressions or holes in driveway surface",
+            "visualPatterns": "Circular void, uneven patch"
+        },
+        {
+            "category": "Driveway",
+            "id": "DR03",
+            "defect": "Spalling",
+            "majorDefectCategory": "",
+            "description": "Surface flaking or scaling of concrete",
+            "visualPatterns": "Surface flake, rough patch"
+        },
+        {
+            "category": "Driveway",
+            "id": "DR06",
+            "defect": "Surface Erosion",
+            "majorDefectCategory": "",
+            "description": "Loss of aggregate or asphalt binder",
+            "visualPatterns": "Rough patch, exposed stone"
+        },
+        {
+            "category": "Driveway",
+            "id": "DR07",
+            "defect": "Edge Deterioration",
+            "majorDefectCategory": "",
+            "description": "Cracking or crumbling at driveway edges",
+            "visualPatterns": "Edge fracture, missing section"
+        },
+        {
+            "category": "yard and fence",
+            "id": "YF02",
+            "defect": "Broken/Missing Fence Panel",
+            "majorDefectCategory": "",
+            "description": "Absent or fractured fence sections",
+            "visualPatterns": "Open gap, missing panel"
+        },
+        {
+            "category": "yard and fence",
+            "id": "YF16",
+            "defect": "Tree Root Intrusion (Yard)",
+            "majorDefectCategory": "",
+            "description": "Roots impacting fence or yard grading",
+            "visualPatterns": "Root crack, soil displacement"
+        },
+        {
+            "category": "Foundation",
+            "id": "Found12",
+            "defect": "Bulging Foundation Wall",
+            "majorDefectCategory": "",
+            "description": "Wall bowing inward due to soil pressure",
+            "visualPatterns": "Curved wall, uneven plane"
+        },
+        {
+            "category": "Foundation",
+            "id": "Found13",
+            "defect": "Cement Surface Deterioration",
+            "majorDefectCategory": "",
+            "description": "Cement cover flaking or coming apart",
+            "visualPatterns": "Surface flake, exposed aggregate"
+        },
+        {
+            "category": "Foundation",
+            "id": "Found18",
+            "defect": "Risk Indicator – Uneven Floors",
+            "majorDefectCategory": "",
+            "description": "Floors sloping or dipping",
+            "visualPatterns": "Tilted plane, uneven surface"
+        }
+    ],
+    "timestamp": 1770090904850
+}
